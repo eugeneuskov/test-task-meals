@@ -20,7 +20,8 @@
     "scripts": {
         "test": "phpunit --colors=always",
         "test-coverage": "phpunit --colors=always --coverage-text",
-        "test-nc": "phpunit -v --stop-on-error --colors=always"
+        "test-nc": "phpunit -v --stop-on-error --colors=always",
+        "test-filter": "phpunit --filter=SelectionTimeIsAvailableTest"
     },
     "autoload": {
         "psr-4": {

@@ -12,7 +12,6 @@ class SelectionLock
 {
     public function __construct(
         private int $id,
-        private Poll $poll,
         private AvailableDayList $availableDays,
         private AvailableTimeStruct $availableTimeStruct
     ) {}
@@ -20,11 +19,6 @@ class SelectionLock
     public function getId(): int
     {
         return $this->id;
-    }
-
-    public function getPoll(): Poll
-    {
-        return $this->poll;
     }
 
     public function getAvailableDays(): AvailableDayList
