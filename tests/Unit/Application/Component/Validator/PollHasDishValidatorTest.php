@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace tests\Meals\Unit\Application\Component\Validator;
 
 use Meals\Domain\Dish\Dish;

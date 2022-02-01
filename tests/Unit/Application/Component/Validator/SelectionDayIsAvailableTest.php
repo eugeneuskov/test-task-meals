@@ -7,7 +7,6 @@ namespace tests\Meals\Unit\Application\Component\Validator;
 use DateTimeImmutable;
 use Meals\Application\Component\Validator\Exception\SelectionLockNotAvailableException;
 use Meals\Application\Component\Validator\SelectionDayIsAvailableValidator;
-use Meals\Domain\SelectionLock\AvailableDay\AvailableDay;
 use Meals\Domain\SelectionLock\AvailableDay\AvailableDayList;
 use Meals\Domain\SelectionLock\SelectionLock;
 use PHPUnit\Framework\TestCase;
